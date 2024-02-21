@@ -1,0 +1,54 @@
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: $bg_gris;
+
+  &_photo {
+    background-image: url(../images/perfil.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 145px;
+    height: 145px;
+    border: 3px solid $color_white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 130px;
+  }
+
+  &_name {
+    color: $color_green;
+    text-transform: uppercase;
+    font-family: $font-montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  &_job {
+    color: $color_icon;
+    font-family: $font-montserrat;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+}
+
+.icon {
+  display: flex;
+  
+  gap: 30px;
+  
+  
+  &_link{
+    font-size: 20px;
+    color: $color_icon;
+
+  }
+}
