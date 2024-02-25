@@ -3,12 +3,10 @@ import AboutMe from "./AboutMe"
 import Header from "./Header"
 import Hero from "./Hero"
 import Project from "./Project"
+import project from "../services/dataProject.json"
+
 
 function App() {
-
-  const project = [
-    {id: "1", nameProject: "Web Grupal"}
-  ]
 
 
 
@@ -17,7 +15,7 @@ function App() {
     <Header />
     <Hero />
     <AboutMe />
-    <Project />
+    <Project project={project}/>
     
     </>
   )
