@@ -32,6 +32,14 @@ function Hero() {
             <i class="fa-brands fa-behance"></i>
           </a>
         </div>
+
+        <div className="containergeneral">
+          <div className="container">
+            <p className="container_email">dianymartinez31@gmail.com</p>
+            <div className="container_copy">Copy</div>
+          </div>
+          <div className="cv">CV</div>
+        </div>
       </article>
     </>
   );

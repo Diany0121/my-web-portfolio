@@ -6,6 +6,12 @@ import Project from "./Project"
 
 function App() {
 
+  const project = [
+    {id: "1", nameProject: "Web Grupal"}
+  ]
+
+
+
   return (
     <>
     <Header />
