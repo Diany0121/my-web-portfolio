@@ -10,7 +10,30 @@ function Header() {
           <li className="nav_li">proyectos</li>
           <li className="nav_li">contacto</li>
         </ul>
-        
+
+        <div className="iconnav">
+          <a
+            href="https://www.linkedin.com/in/diany-martinez/"
+            className="icon_linknav"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/Diany0121"
+            className="icon_linknav"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.behance.net/dianyluna31"
+            className="icon_linknav"
+            target="_blank"
+          >
+            <i class="fa-brands fa-behance"></i>
+          </a>
+        </div>
       </nav>
     </>
   );

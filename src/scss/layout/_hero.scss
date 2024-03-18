@@ -2,10 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 75vh;
   background-color: $bg_gris;
   // border-radius: 0px 0px 40px 40px;
   // margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    align-items: flex-end;
+    padding-right: 65px;
+    height: 85vh;
+  }
+
+  @media (min-width: 1200px){
+    height: 100vh;
+  }
 
   &_photo {
     background-image: url(../images/perfil.jpeg);
@@ -15,9 +25,18 @@
     height: 145px;
     border: 3px solid $color_white;
     border-radius: 50%;
-    margin-bottom: 20px;
     margin-top: 145px;
     box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.12);
+
+    @media (min-width: 768px) {
+      width: 200px;
+      height: 200px;
+    }
+
+    @media (min-width: 1200px) {
+      width: 230px;
+      height: 230px;
+    }
   }
 
   &_name {
@@ -29,6 +48,16 @@
     font-weight: 300;
     line-height: normal;
     margin-bottom: 20px;
+    margin-top: 20px;
+
+    @media (min-width: 768px) {
+      width: 433px;
+      height: 50px;
+      color: $color_green;
+      text-align: center;
+      font-size: 40px;
+      text-transform: uppercase;
+    }
   }
 
   &_job {
@@ -40,6 +69,16 @@
     font-weight: 600;
     line-height: normal;
     margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+      width: 440px;
+      color: $color_icon;
+      text-align: center;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
   }
 }
 
@@ -51,11 +90,24 @@
     font-size: 20px;
     color: $color_icon;
   }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 
-.containergeneral{
+.containergeneral {
   display: flex;
   gap: 10px;
+
+  @media (min-width: 768px) {
+    width: 347px;
+    gap: 20px;
+  }
+
+  @media (min-width: 1200px){
+    width: 420px;
+  }
 }
 
 .container {
@@ -68,15 +120,40 @@
   border: 1px solid $color_white;
   margin-top: 20px;
 
+  @media (min-width: 768px) {
+    width: 350px;
+    height: 18px;
+    border-radius: 9px;
+  }
+
+  @media (min-width: 1200px){
+    width: 420px;
+    height: 24px;
+    border-radius: 12px;
+  }
+
   &_email {
     color: $color_icon;
     text-align: center;
-    font-family: Montserrat;
+    font-family: $font-montserrat;
     font-size: 8px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-left: 10px;
+
+    @media (min-width: 768px) {
+      text-align: center;
+      font-family: $font-montserrat;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    @media (min-width: 1200px){
+      font-size: 14px;
+    }
   }
 
   &_copy {
@@ -85,24 +162,52 @@
     background: $color_white;
     color: $color_icon;
     text-align: center;
-    font-family: Montserrat;
+    font-family: $font-montserrat;
     font-size: 8px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    @media (min-width: 768px) {
+      width: 65px;
+      font-size: 10px;
+    }
+    @media (min-width: 1200px){
+      width: 85px;
+      font-size: 14px;
+      height: 24px;
+      border-radius: 12px;
+    }
   }
 }
 
-.cv{
+.cv {
   width: 43px;
   border-radius: 6px;
   background: $color_white;
   color: $color_icon;
   text-align: center;
-  font-family: Montserrat;
+  font-family: $font-montserrat;
   font-size: 8px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-top: 20px;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    width: 65px;
+    height: 18px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 3px;
+  }
+
+  @media (min-width: 1200px){
+    width: 85px;
+    font-size: 14px;
+    border-radius: 12px;
+    height: 24px;
+  }
 }

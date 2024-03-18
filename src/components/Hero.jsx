@@ -5,7 +5,7 @@ function Hero() {
     <>
       <article className="perfil">
         <div className="perfil_photo"></div>
-        <h1 className="perfil_name">Diany martínez</h1>
+        <h1 className="perfil_name">Diany Martínez</h1>
         <p className="perfil_job">
           Junior Front-End developer | UX/UI Design | Graphic Design
         </p>
@@ -36,7 +36,7 @@ function Hero() {
         <div className="containergeneral">
           <div className="container">
             <p className="container_email">dianymartinez31@gmail.com</p>
-            <div className="container_copy">Copy</div>
+            <div className="container_copy">Copiar</div>
           </div>
           <div className="cv">CV</div>
         </div>
