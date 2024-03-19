@@ -2,13 +2,16 @@
     {
         "id": 1,
         "title": "Web Grupal",
-        "imagen": "https://centrepsicologiacreixent.com/wp-content/uploads/2019/04/team-3393037_1920.jpg",
+        "technologies": "HTML5 | Sass | Responsive",
+        "imagen": "https://img.freepik.com/foto-gratis/concepto-conexion-chat-video-amigos-grupo_53876-120117.jpg?w=900&t=st=1710857751~exp=1710858351~hmac=74f5f20644d4975852ae8d44d0af6d1fa0c2a2bbf3a094788838215f259b0f34",
         "repo": "https://github.com/Diany0121/Group-project"
     },
     {
         "id": 2,
         "title": "Equipo Molones",
-        "imagen": "https://centrepsicologiacreixent.com/wp-content/uploads/2019/04/team-3393037_1920.jpg",
+        "technologies": "React | JavaScript | HTML5 | Sass | Responsive",
+        "imagen": "https://img.freepik.com/vector-gratis/tarjeta-visita-geometrica-diseno-plano_23-2149293309.jpg?t=st=1710857858~exp=1710858458~hmac=023496aca002b6db781058f6fc03c83c1cb2182386a1972a805fd97d859dbb94",
         "repo": "https://github.com/Diany0121/Group-project"
+
     }
 ]

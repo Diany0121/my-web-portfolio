@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import "../scss/App.scss";
 
 function Header() {
+
   return (
     <>
       <nav className="nav">
@@ -8,7 +10,10 @@ function Header() {
           <li className="nav_li">sobre mi</li>
           <li className="nav_li">habilidades</li>
           <li className="nav_li">proyectos</li>
-          <li className="nav_li">contacto</li>
+          <li className="nav_li"> 
+          <Link to='/contacto' className=""></Link>
+          <p>contacto</p>
+          </li>
         </ul>
 
         <div className="iconnav">

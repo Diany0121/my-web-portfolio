@@ -1,19 +1,22 @@
 import "../scss/App.scss";
 import CardProject from "./CardProject";
 
-function Project({ project }) {
-  const mapeoProject = () => {
-    return project.map((project, index) => (
-      <li key={index}>
-        <CardProject project={project} />
+function Project({ data }) {
+  const mapeoData = () => {
+    return data.map((project, i) => (
+      <li className="project" key={i}>
+        <CardProject dataproject = {project}/>
       </li>
     ));
   };
 
   return (
+    <>
+    <h3 className="project_h3">proyectos</h3>
     <ul>
-      {mapeoProject}
+      {mapeoData()}
     </ul>
+    </>
 
     // <div className="project">
     //     <h3 className="project_h3">proyectos</h3>

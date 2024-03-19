@@ -2,19 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 75vh;
+  justify-content: center;
+  height: 65vh;
   background-color: $bg_gris;
-  // border-radius: 0px 0px 40px 40px;
-  // margin-bottom: 20px;
 
   @media (min-width: 768px) {
     align-items: flex-end;
-    padding-right: 65px;
+    padding-right: 30px;
     height: 85vh;
   }
 
   @media (min-width: 1200px){
-    height: 100vh;
+    height: 95vh;
+    padding-right: 130px;
+    justify-content: center
   }
 
   &_photo {
@@ -25,7 +26,6 @@
     height: 145px;
     border: 3px solid $color_white;
     border-radius: 50%;
-    margin-top: 145px;
     box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.12);
 
     @media (min-width: 768px) {

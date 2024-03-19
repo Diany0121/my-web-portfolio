@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: $bg_gris;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_text {
+    font-size: 14px;
+    color: $color_icon;
+    font-family: $font-montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &_span{
+    font-size: 14px;
+    margin: 15px;
+  }
+}

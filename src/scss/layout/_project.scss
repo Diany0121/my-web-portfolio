@@ -1,17 +1,16 @@
 .project {
-  background-color: $color_white;
-  padding-left: 20px;
-  width: 100%;
-  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  &_h3 {
-    color: $color_green;
-    //text-align: center;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: normal;
-    margin-top: 20px;
-  }
+.project_h3 {
+  color: $color_green;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 20px;
 }
